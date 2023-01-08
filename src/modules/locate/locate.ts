@@ -31,7 +31,7 @@ export default ():Promise<LocationLookupResponse> => {
             reject(e);
           },
           {
-            timeout: 3000,
+            timeout: 6000,
           }
         );
       } catch (e) {
